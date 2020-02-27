@@ -71,9 +71,10 @@ h3{
 }
 
 body{
-    background-color: #eaf6fa
+    background-color: #eaf6fa;
+    
 }
-
+    
 /* step three - build a grid that becomes active when the pixels are 800px or less */
 @media screen and (max-width: 800px) {
 
@@ -111,10 +112,12 @@ header {
 }
 .workexperience {
     grid-area: w;
+    border-bottom: 5px solid rgb(107, 196, 107);
 }
 
 .education {
     grid-area: e;
+    border-bottom: 5px solid rgb(107, 196, 107);
 }
 
 .skills {
@@ -123,10 +126,14 @@ header {
 
 .biography {
     grid-area: b;
+   
+
 }
 
 .interests {
     grid-area: p;
+   
+
 }
 
 .contact {
