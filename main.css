@@ -30,7 +30,7 @@
     grid-template-rows: auto;
     /* use letters from step 2 to build the grid */
     grid-template-areas: 
-        "h h h h h h h h h h h h"
+        "h h h h h h h h o o o o"
         "w w w w w w w w b b b b"
         "e e e e e e e e p p p p"
         "s s s s s s s s c c c c"
@@ -58,7 +58,7 @@ ul{
 
 
 h1{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 h2{
@@ -106,7 +106,9 @@ header {
     grid-area: h;
     padding-top: 4px;
 }
-
+.photo {
+    grid-area:o;
+}
 .workexperience {
     grid-area: w;
 }
